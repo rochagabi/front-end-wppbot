@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+
+<body>
+
+    <a href="projetohome.html" id="home">Home</a>
+    <h1>Cadastro de Usuários</h1>
+
+    <div id="divDados">
+        Nome &nbsp;<input type="string" name="nome" id="nome">
+        <br><br><br>
+        Celular &nbsp;<input type="number" name="celular" id="celular" placeholder="(00) 0000-0000">
+        <br><br><br>
+        Email &nbsp;<input type="string" name="email" id="email">
+        <br><br><br>
+        Selecione a loja &nbsp;<select name="loja" id="loja">
+            <option value="loja a">loja a</option>
+            <option value="loja b">loja b</option>
+            <option value="loja c">loja c</option>
+        </select>
+        <br><br><br>
+        <input type="button" value="Cadastrar" id="cadastrar" onclick="cadastrar()">
+    </div>
+    <section id="content-section">
+    </section>
+
+    <script src="projeto.js"></script>
+</body>
+
+</html>
